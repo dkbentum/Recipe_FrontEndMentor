@@ -15,21 +15,25 @@
 body{
     background-color: white;
     padding:2%;
+
 }
 
 h1{
     font-family: 'young serif';
+    padding-left: 15PX;
 }
 
 h2{
     color:hsl(14, 45%, 36%);
     font-family:'young serif';
+    padding-left: 25px;
 
 }
 
 h3{
     color:hsl(332, 51%, 32%);
     font-family:"outfit font";
+    padding-left:25px;
 }
 
 p, li, td{
@@ -45,8 +49,8 @@ th{
 table, th, td {
   border-collapse: collapse;
   padding-left: 50px;
-  padding-right: 60px;
-  width: 85%;
+  padding-right: 350px;
+  width: 100%;
   height: 40px;
   text-align: left;
   
@@ -55,3 +59,21 @@ table, th, td {
 }
 
 tr:hover {background-color: coral;}
+
+div {
+    background-color:hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius:10px;
+}
+
+img {
+    border-radius:3%
+}
+
+li {
+    padding: 5px;
+}
+
+p {
+    padding-left: 15px;
+}
